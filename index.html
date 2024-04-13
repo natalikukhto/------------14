@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Контрольная работа 14</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <img src="images/homeWorks.png" alt="homeWorks">
+    </div>
+    <div class="content">
+        <div class="account">
+            <div class="title">
+                Get your free account
+            </div>
+            <div class="text">
+                Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+            </div>
+            <form class="formWithValidation">
+                <div>
+                    <label class="fullname">
+                        <div class="label-text">Full Name</div>
+                        <input type="text" id="name" value="Antony Swarowski" class="input">
+                       <!-- <div class="error">содержит буквы и пробел</div>-->
+                    </label>
+                </div>
+                <div>
+                    <label class="username">
+                        <div class="label-text">Your username</div>
+                        <input type="text" id="username" value="" class="input">
+                       <!-- <div class="error">содержит буквы, цифры, символ подчеркивания и тире</div>-->
+                    </label>
+                </div>
+                <div>
+                    <label class="email">
+                        <div class="label-text">E-mail</div>
+                        <input type="text" id="email" value="" class="input">
+                        <!--<div class="error">пример заполнения nata@mail.ru</div>-->
+                    </label>
+                </div>
+                <div>
+                    <label class="password">
+                        <div class="label-text">Password</div>
+                        <input type="password" id="password" value="" class="input">
+                        <!--<div class="error">ОбязательноБ хотя бы одна буква в верхнем регистре, хотя бы одна цифра, хотя
+                            бы один спецсимвол, всего не менее 8 символов
+                        </div>-->
+                    </label>
+                </div>
+                <div>
+                    <label class="repassword">
+                        <div class="label-text">Repeat Password</div>
+                        <input type="password" id="repassword" value="" class="input">
+                        <!--<div class="error">Поля password и repassword должны совпадать</div>-->
+                    </label>
+                </div>
+                <div>
+                    <label class="checkbox">
+                        <input type="checkbox" id="chose" class="input">
+                        <span class="chose-span" id="chose-span">Agree to our Terms of Service and Privacy Statement</span>
+                        <!--<div class="chose">Заполните соглашение</div>-->
+                    </label>
+                </div>
+                <div class="button">
+                    <button type="button" id="button">Sign Up</button>
+                </div>
+            </form>
+
+                <a href="#" id="link">Already have an account?</a>
+
+        </div>
+        <div class="images" id="img">
+            <img src="images/image.png" alt="Rocket" >
+        </div>
+    </div>
+
+    <div id="popup">
+        <p class="popup-text">На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию!</p>
+        <button type="button" id="btn">OK</button>
+    </div>
+</div>
+
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
